@@ -1,0 +1,23 @@
+{
+  "name": "@ui-automation/wdio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/appium-service": "^8.3.2",
+    "@wdio/cucumber-framework": "^8.3.0",
+    "@wdio/local-runner": "^8.3.2",
+    "@wdio/spec-reporter": "^8.3.0",
+    "wdio-html-nice-reporter": "^8.1.0"
+  },
+  "dependencies": {
+    "@ui-automation/screen": "^1.0.0"
+  }
+}

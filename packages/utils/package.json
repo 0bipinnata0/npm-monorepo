@@ -1,0 +1,20 @@
+{
+  "name": "@ui-automation/utils",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^6.5.0"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@ui-automation/types": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@ui-automation/screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "test": "ts-node index.ts",
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ui-automation/utils": "^1.0.0",
+    "@ui-automation/types": "^1.0.0",
+    "tsup": "^6.5.0"
+  }
+}
